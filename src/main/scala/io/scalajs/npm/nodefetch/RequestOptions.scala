@@ -1,7 +1,7 @@
 package io.scalajs.npm.nodefetch
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.ScalaJSDefined
+
 
 /**
   * Request Options
@@ -15,7 +15,7 @@ import scala.scalajs.js.annotation.ScalaJSDefined
   * @param size     maximum response body size in bytes. 0 to disable
   * @param timeout  maximum redirect count. 0 to not follow redirect
   */
-@ScalaJSDefined
+
 class RequestOptions(val agent: js.UndefOr[String] = js.undefined,
                      val body: js.Any = js.undefined,
                      val compress: js.UndefOr[Boolean] = js.undefined,

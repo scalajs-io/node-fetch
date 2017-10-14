@@ -97,7 +97,7 @@ headers.get('content-type') => null
 To add the `node-fetch` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "node-fetch" % "0.4.1"
+libraryDependencies += "io.scalajs.npm" %%% "node-fetch" % "0.4.2"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
